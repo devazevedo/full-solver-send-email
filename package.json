@@ -1,0 +1,31 @@
+{
+  "name": "full-solver-send-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fastify-cors": "^2.1.0",
+    "@types/node": "^20.14.10",
+    "@types/nodemailer": "^6.4.15",
+    "tsup": "^8.1.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^3.29.5",
+    "nodemailer": "^6.9.14"
+  }
+}
